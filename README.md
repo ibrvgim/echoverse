@@ -2,9 +2,12 @@
 
 Welcome to e-commerce website! This platform is designed to provide users with a seamless online shopping experience.
 
+> [!IMPORTANT]
+> The Website does not have responsive design.
+
 ## OVERVIEW
 
-### TECHNOLOGIES USED TO BUILD
+### Technologies used to build
 
 - Vite - https://vitejs.dev/
 - ReactJS - https://react.dev/
@@ -14,20 +17,17 @@ Welcome to e-commerce website! This platform is designed to provide users with a
 - React Hot Toast - https://react-hot-toast.com/
 - React Icons - https://react-icons.github.io/react-icons/
 
-### WEBSITE LINK
+### Website link
 
-[ECHOVERSE](https://audiophile-ecommerce-mbart13.vercel.app/)
+[ECHOVERSE](https://echoverse-seven.vercel.app/)
 
-### SETUP
+### Setup
 
 Manage locally:
 
 ```
 npm install && npm run dev
 ```
-
-> [!IMPORTANT]
-> The Website does not have responsive design.
 
 ## AUTHOR
 
