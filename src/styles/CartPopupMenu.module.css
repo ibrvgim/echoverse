@@ -1,0 +1,141 @@
+.containerPopup {
+  padding: 4rem 3rem;
+  background-color: var(--color-gray-100);
+  width: 43rem;
+  border: 1px solid var(--color-gray-500);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+  border-radius: 1rem;
+  color: var(--color-black);
+
+  position: absolute;
+  right: 0;
+  top: 5.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s;
+  z-index: 1000;
+}
+
+.popupHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.popupHeading h3 {
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: var(--color-gray-800);
+}
+
+.popupHeading button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-gray-600);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.popupHeading button:hover {
+  color: var(--color-gray-900);
+}
+
+.popupProducts {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.popupProducts img {
+  height: 7rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-gray-500);
+}
+
+.popupProducts h4 {
+  font-size: var(--font-size-16);
+  letter-spacing: 0;
+}
+
+.popupProducts > div span {
+  font-size: var(--font-size-12);
+  color: var(--color-gray-700);
+}
+
+.popupProducts div:last-child {
+  margin-left: auto;
+
+  font-size: var(--font-size-14);
+  font-weight: 300;
+  background-color: var(--color-gray-300);
+  display: flex;
+  gap: 1rem;
+  height: 3rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.popupProducts div:last-child button {
+  background-color: var(--color-gray-300);
+  width: 3rem;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-14);
+}
+
+.popupProducts div:last-child button:hover {
+  background-color: var(--color-gray-400);
+}
+
+.popupTotal {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.popupTotal > div p {
+  font-size: var(--font-size-20);
+  font-weight: 800;
+  color: var(--color-gray-800);
+}
+
+.popupTotal > div span {
+  font-size: var(--font-size-18);
+  font-weight: 600;
+  color: var(--color-gray-700);
+}
+
+.popupTotal div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popupTotal button:hover {
+  transform: none;
+}
+
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyCart p {
+  font-size: var(--font-size-20);
+  color: var(--color-gray-600);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  font-size: var(--font-size-44);
+}

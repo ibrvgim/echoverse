@@ -1,0 +1,83 @@
+/* 
+
+-- Spacing System (px): 2/ 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128;
+
+-- Font sizes (px): 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98;
+
+*/
+
+:root {
+  --color-gray-0: #f8f9fa;
+  --color-gray-100: #f1f3f5;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-400: #ced4da;
+  --color-gray-500: #adb5bd;
+  --color-gray-600: #868e96;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
+
+  --color-black: #191919;
+  --color-white: #ffffff;
+  --color-red: #f03e3e;
+
+  --color-orange-main: #d87d4a;
+  --color-orange-secondary: #ad643b;
+  --color-orange-tertiary: #dc8a5c;
+
+  --font-size-10: 1rem;
+  --font-size-12: 1.2rem;
+  --font-size-14: 1.4rem;
+  --font-size-16: 1.6rem;
+  --font-size-18: 1.8rem;
+  --font-size-20: 2rem;
+  --font-size-22: 2.2rem;
+  --font-size-24: 2.4rem;
+  --font-size-30: 3rem;
+  --font-size-36: 3.6rem;
+  --font-size-44: 4.4rem;
+  --font-size-52: 5.2rem;
+}
+
+::selection {
+  background-color: var(--color-orange-tertiary);
+  color: var(--color-white);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: var(--font-size-16);
+  color: var(--color-gray-900);
+  line-height: 1.5;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+input:focus {
+  outline: 2px dashed var(--color-orange-main);
+}

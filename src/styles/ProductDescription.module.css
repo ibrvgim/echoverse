@@ -1,0 +1,38 @@
+.container {
+  padding: 18rem 0;
+}
+
+.container > div {
+  width: 114rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+}
+
+.container img {
+  border-radius: 1rem;
+  width: 51%;
+}
+
+.container > div div {
+  width: 50rem;
+}
+
+.container div h2 {
+  font-size: var(--font-size-44);
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+
+.container div h2 span {
+  color: var(--color-orange-main);
+}
+
+.container div p {
+  line-height: 1.8;
+  color: var(--color-gray-600);
+}

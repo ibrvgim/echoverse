@@ -1,0 +1,72 @@
+@keyframes leftIn {
+  0% {
+    transform: translateX(-10rem);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rightIn {
+  0% {
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hero {
+  height: 63rem;
+  width: 100%;
+  background-image: url('/public/images/home/desktop/image-hero.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  width: 114rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  animation: rightIn 1s 0.2s ease-in;
+  animation-fill-mode: backwards;
+}
+
+.hero div {
+  animation: leftIn 1s 1s ease-in;
+  animation-fill-mode: backwards;
+}
+
+.hero span {
+  text-transform: uppercase;
+  font-size: var(--font-size-12);
+  letter-spacing: 0.7rem;
+  color: var(--color-orange-main);
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: var(--font-size-52);
+  font-weight: 800;
+  margin-top: 0.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.hero p {
+  width: 38rem;
+  line-height: 2;
+  letter-spacing: 0.05rem;
+  margin: 1rem 0 4rem 0;
+  color: var(--color-gray-500);
+}

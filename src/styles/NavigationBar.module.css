@@ -1,0 +1,89 @@
+:global(.active) {
+  color: var(--color-orange-tertiary);
+  font-weight: 900;
+  border-bottom: 2px solid var(--color-orange-main);
+}
+
+.navigation {
+  height: 8rem;
+  width: 114rem;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-gray-700);
+}
+
+.navigation ul,
+.navButtons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation ul > div > li > a:link,
+.navigation ul > div > li > a:visited {
+  padding-bottom: 3rem;
+  transition: all 0.4s;
+}
+
+.navigation ul > div > li > a:hover,
+.navigation ul > div > li > a:active {
+  color: var(--color-orange-tertiary);
+}
+
+.navigation img {
+  height: 1.6rem;
+}
+
+.navigation ul {
+  font-weight: 600;
+  font-size: var(--font-size-12);
+  letter-spacing: 0.2rem;
+}
+
+.navButtons {
+  gap: 4rem;
+}
+
+.navButtons a {
+  text-transform: uppercase;
+}
+
+.navButtons a {
+  cursor: pointer;
+}
+
+.cart {
+  margin-left: 4rem;
+  position: relative;
+}
+
+.cart button {
+  cursor: pointer;
+}
+
+.cart a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 40rem;
+}
+
+.icon {
+  font-size: var(--font-size-22);
+  position: relative;
+}
+
+.itemsAmount {
+  font-size: var(--font-size-12);
+  background-color: var(--color-orange-main);
+  border: none;
+  padding: 0.2rem 0.7rem;
+  border-radius: 100rem;
+  font-weight: 800;
+  color: var(--color-white);
+}
+
+.cart:hover section {
+  opacity: 1;
+  visibility: visible;
+}

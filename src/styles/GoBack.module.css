@@ -1,0 +1,19 @@
+.container {
+  width: 114rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.container button {
+  font-size: var(--font-size-16);
+  border: none;
+  background-color: transparent;
+  color: var(--color-gray-600);
+  margin-top: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.container button:hover {
+  color: var(--color-gray-800);
+}

@@ -1,0 +1,11 @@
+.logo {
+  font-size: var(--font-size-30);
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.logo span {
+  color: var(--color-orange-main);
+}

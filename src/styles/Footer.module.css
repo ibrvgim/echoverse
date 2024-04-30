@@ -1,0 +1,63 @@
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-gray-400);
+  border-top: 10px solid var(--color-orange-secondary);
+}
+
+.footer > div {
+  width: 114rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.footer > div div {
+  width: 57rem;
+  margin: 6rem 0 3rem 0;
+}
+
+.footer > div p {
+  margin: 2rem 0 4rem 0;
+  line-height: 1.8;
+  color: var(--color-gray-600);
+  font-size: var(--font-size-14);
+}
+
+.footerDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footerInteractionPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 8rem;
+}
+
+.footerInteractionPanel ul {
+  display: flex;
+  gap: 2rem;
+  text-transform: uppercase;
+  font-size: var(--font-size-12);
+  letter-spacing: 0.1rem;
+}
+
+.footerInteractionPanel ul:last-child {
+  font-size: var(--font-size-18);
+}
+
+.footerInteractionPanel ul li,
+.footerInteractionPanel ul a:link,
+.footerInteractionPanel ul a:visited {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.footerInteractionPanel ul li:hover,
+.footerInteractionPanel ul a:hover,
+.footerInteractionPanel ul a:active {
+  color: var(--color-orange-tertiary);
+}
