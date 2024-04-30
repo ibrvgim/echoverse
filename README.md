@@ -6,13 +6,13 @@ Welcome to e-commerce website! This platform is designed to provide users with a
 
 ### TECHNOLOGIES USED TO BUILD
 
-• Vite - https://vitejs.dev/
-• ReactJS - https://react.dev/
-• React Router - https://reactrouter.com/en/main
-• Redux Toolkit - https://redux.js.org/
-• React Hook Form - https://react-hook-form.com/
-• React Hot Toast - https://react-hot-toast.com/
-• React Icons - https://react-icons.github.io/react-icons/
+- Vite - https://vitejs.dev/
+- ReactJS - https://react.dev/
+- React Router - https://reactrouter.com/en/main
+- Redux Toolkit - https://redux.js.org/
+- React Hook Form - https://react-hook-form.com/
+- React Hot Toast - https://react-hot-toast.com/
+- React Icons - https://react-icons.github.io/react-icons/
 
 ### WEBSITE LINK
 
